@@ -34,7 +34,7 @@ class _LoadingButtonState extends State<LoadingButton> {
       child: ElevatedButton(
         style: ButtonStyle(backgroundColor: MaterialStateProperty.resolveWith((states) {
           if (states.contains(MaterialState.disabled)) {
-            return Colors.grey;
+            return Colors.green;
           }
           return Colors.blue;
         })),
